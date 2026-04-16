@@ -1,0 +1,5 @@
+node_modules/
+papers.json
+ref_*.html
+.env
+.env.local

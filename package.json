@@ -1,0 +1,16 @@
+{
+  "name": "nutrition-brain",
+  "version": "1.0.0",
+  "description": "Nutrition Medicine Daily Literature Report",
+  "type": "module",
+  "scripts": {
+    "fetch": "node scripts/fetch_papers.mjs",
+    "report": "node scripts/generate_report.mjs",
+    "index": "node scripts/generate_index.mjs",
+    "build": "node scripts/fetch_papers.mjs --days 7 --max-papers 50 --json --output papers.json && node scripts/generate_report.mjs --input papers.json --output docs/nutrition-TODAY.html && node scripts/generate_index.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {}
+}
