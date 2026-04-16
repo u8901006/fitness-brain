@@ -12,5 +12,7 @@
   "engines": {
     "node": ">=22"
   },
-  "dependencies": {}
+  "dependencies": {
+    "tweetsodium": "^0.0.4"
+  }
 }

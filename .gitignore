@@ -1,5 +1,7 @@
 node_modules/
 papers.json
 ref_*.html
+set_secrets.mjs
+package-lock.json
 .env
 .env.local
